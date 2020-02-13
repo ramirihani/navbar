@@ -1,0 +1,13 @@
+.items {
+  display: flex;
+  justify-content: flex-end;
+}
+ul li {
+  list-style: none;
+}
+.dropdownMenu {
+  visibility: hidden;
+}
+.menu:hover .dropdownMenu {
+  visibility: visible;
+}
